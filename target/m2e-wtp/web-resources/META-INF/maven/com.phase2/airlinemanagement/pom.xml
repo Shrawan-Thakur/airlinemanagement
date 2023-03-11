@@ -94,7 +94,7 @@
   </dependencies>
 
   <build>
-    <finalName>airlinemanagement</finalName>
+    <!--finalName was here-->
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
@@ -128,5 +128,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <finalName>airlinemanagement</finalName>
   </build>
 </project>
